@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "run deno",
+            "command": "deno run --allow-net app.ts",
+            "type": "shell",
+            "isBackground": true,
+            "problemMatcher": {
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": "Debugger listening"
+                }
+            }
+        }
+    ]
+}
